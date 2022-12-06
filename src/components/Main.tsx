@@ -1,17 +1,27 @@
-import React from "react";
+import { useEffect } from "react";
+import { observer } from "mobx-react-lite";
+import todo from "../store/todo";
+import popup from "../store/popup";
 import "../styles/Main.css";
 import Task from "./Task";
-const Main = () => {
 
-  const tasks = [{text: 'Task 1', id: 1}, {text: 'Task 2', id: 2}, {text: 'Task 3', id: 3}];
+const Main = observer(() => {
+  useEffect(() => {
+    todo.getTodos();
+  }, []);
+
   return (
     <section className="Main">
-      <button className="Main__button-open-popup"></button>
+      <button className="Main__button-open-popup" onClick={() => (popup.openPopup())}></button>
       <ul className="Main__list">
-        {tasks.map((task) => Task(task))}
+        {todo.todos.map((task) => (
+          <li className="Task" key={task.postId}>
+            {Task(task)}
+          </li>
+        ))}
       </ul>
     </section>
   );
-};
+});
 
 export default Main;

@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "json-saaaerver",
+            "password": "typxcvicode"
+        },
+        {
+            "id": 2,
+            "email": "json-sgfgfgerver",
+            "password": "typicode"
+        },
+        {
+            "id": 3,
+            "email": "json-serasdasver",
+            "password": "typicode"
+        }
+    ],
+    "tasks": [
+        {
+            "author_id": 1,
+            "postId": 1124214,
+            "text": "some comment",
+            "completed": false
+        },
+        {
+            "author_id": 1,
+            "postId": 112524214,
+            "text": "somDe comment",
+            "completed": false
+        },
+        {
+            "author_id": 1,
+            "postId": 1354214,
+            "text": "somSe comment",
+            "completed": false
+        }
+    ]
+}

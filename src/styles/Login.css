@@ -1,0 +1,16 @@
+.Login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Login__form-input {
+  margin: 10px 0;
+}
+.Login__form-submit-button {
+  margin: 10px 0;
+}/*# sourceMappingURL=Login.css.map */
