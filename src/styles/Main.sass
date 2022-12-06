@@ -1,0 +1,26 @@
+$components-radius: 0.5em
+$components-color: #87CEFA
+.Main
+    padding-bottom: 50px
+
+    &__list
+        display: flex
+        gap: 10px
+        flex-direction: column
+        list-style: none
+        margin: 0
+        padding: 0
+
+    &__button-open-popup
+        margin-bottom: 8px
+        width: 100%
+        height: 40px
+        border-radius: $components-radius
+        // border: none
+        
+        background: url(../images/plus.svg) no-repeat center
+        background-size: contain
+        background-color: $components-color
+        
+        &:hover
+            cursor: pointer

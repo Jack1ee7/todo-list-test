@@ -1,0 +1,20 @@
+.App {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", "Arial", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(79deg, rgb(2, 0, 36) 0%, rgb(216, 213, 255) 0%, rgb(247, 255, 140) 100%, rgb(123, 123, 170) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#7b7baa",GradientType=1);
+  min-height: 100vh;
+}
+.App__container {
+  min-width: 320px;
+  max-width: 720px;
+  height: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=App.css.map */

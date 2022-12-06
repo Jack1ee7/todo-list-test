@@ -1,0 +1,33 @@
+$components-radius: 0.5em
+$components-color: #87CEFA
+.Task
+    display: flex
+    align-items: center
+    border: 2px solid $components-color
+    min-height: 40px
+    border-radius: $components-radius
+
+    &__button-delete
+        width: 20px
+        height: 20px
+        margin-left: auto
+        margin-right: 12px
+        background: url(../images/delete-icon.svg) no-repeat center
+        background-size: contain
+        border: none
+
+        &:hover
+            cursor: pointer
+
+    &__text
+        font-size: 16px
+        font-weight: 500
+        margin: 10px 8px
+
+    &__check-button
+        width: 16px
+        height: 16px
+        margin-left: 12px
+
+        &:hover
+            cursor: pointer

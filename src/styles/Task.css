@@ -1,0 +1,32 @@
+.Task {
+  display: flex;
+  align-items: center;
+  border: 2px solid #87CEFA;
+  min-height: 40px;
+  border-radius: 0.5em;
+}
+.Task__button-delete {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: 12px;
+  background: url(../images/delete-icon.svg) no-repeat center;
+  background-size: contain;
+  border: none;
+}
+.Task__button-delete:hover {
+  cursor: pointer;
+}
+.Task__text {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 8px;
+}
+.Task__check-button {
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
+}
+.Task__check-button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Task.css.map */
